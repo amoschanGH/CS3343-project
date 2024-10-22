@@ -1,0 +1,22 @@
+
+Work list:
+
+1.calculate_total_workouts()
+Count the number of workouts logged in a given period (daily, weekly, monthly)
+
+2.average_workout_duration()
+Compute the average duration of workouts over a specified time frame.
+
+3.calculate_bmi(weight, height)
+Calculate Body Mass Index using height and weight from the dataset.
+
+4.track_progress()
+Compute weight change over a specified period and display progress.
+
+
+Calories Record (餐單)
+1.compute_weekly_caloric_intake()
+Calculate total calories consumedover the week based on the imported meal logs.
+
+2.macronutrient_breakdown() (TBC)
+Compute the total and average intake of macronutrients (carbs, proteins, fats) from the dataset.v
