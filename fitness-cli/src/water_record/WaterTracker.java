@@ -13,6 +13,7 @@ public class WaterTracker {
     public WaterTracker() {
         this.dailyIntake = new ArrayList<>();
         this.hydrationGoal = 2.0; // Default hydration goal is 2 liters
+        HydrationController hydrationController = new HydrationController(hydrationGoal);
     }
 
     // Method to calculate weekly water intake
@@ -63,21 +64,5 @@ public class WaterTracker {
         } catch (NumberFormatException e) {
             System.err.println("Error parsing water intake data: " + e.getMessage());
         }
-    }
-
-    public static void main(String[] args) {
-        WaterTracker tracker = new WaterTracker();
-        
-        // Load data from CSV file
-        tracker.loadWaterIntakeData("water_intake.csv");
-
-        // Set hydration goal
-        tracker.setHydrationGoal(2.5); // Example: setting goal to 2.5 liters
-
-        // Check hydration status
-        System.out.println(tracker.checkHydrationStatus());
-
-        // Generate water intake report
-        tracker.generateWaterIntakeReport();
     }
 }
