@@ -1,3 +1,5 @@
+package calories_record;
+
 import java.util.ArrayList;
 
 public class Calories {

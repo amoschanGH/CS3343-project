@@ -1,3 +1,5 @@
+package calories_record;
+
 import java.util.*;
 import java.lang.*;
 
